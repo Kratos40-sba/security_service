@@ -21,6 +21,6 @@ public class SecurityServiceApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         userRipository.save(new User("abdou","123456"));
-        userRipository.save(new User("med","123456"));
+        userRipository.save(new User("jhon","123456"));
     }
 }
